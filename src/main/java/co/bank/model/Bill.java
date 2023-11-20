@@ -17,4 +17,11 @@ public class Bill implements Serializable {
     private Double value;
     private Integer type;
     private String observation;
+
+    public Bill(Date billDate, Double value, Integer type, String observation) {
+        this.billDate = billDate;
+        this.value = value;
+        this.type = type;
+        this.observation = observation;
+    }
 }

@@ -9,18 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fe041c-4a5f-407d-993b-47a9e6209053" name="Changes" comment="Adding TomCat Server">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/controller/BillServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/dao/BillDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/dao/UserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/model/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/util/Conection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+    <list default="true" id="13fe041c-4a5f-407d-993b-47a9e6209053" name="Changes" comment="Creating classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/bank/dao/BillDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/bank/dao/BillDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/bank/model/Bill.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/bank/model/Bill.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700494354058</updated>
       <workItem from="1700494355167" duration="34000" />
-      <workItem from="1700494415010" duration="4435000" />
+      <workItem from="1700494415010" duration="5568000" />
     </task>
     <task id="LOCAL-00001" summary="Adding dependencies">
       <option name="closed" value="true" />
@@ -263,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700494730575</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creating classes">
+      <option name="closed" value="true" />
+      <created>1700498898330</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700498898330</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +272,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding dependencies" />
     <MESSAGE value="Adding TomCat Server" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding TomCat Server" />
+    <MESSAGE value="Creating classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating classes" />
   </component>
 </project>
