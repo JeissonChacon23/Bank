@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Bank:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fe041c-4a5f-407d-993b-47a9e6209053" name="Changes" comment="Adding dependencies">
+    <list default="true" id="13fe041c-4a5f-407d-993b-47a9e6209053" name="Changes" comment="Adding TomCat Server">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/controller/BillServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/dao/BillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/model/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/bank/util/Conection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,14 +27,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="2YRhYxfOm3hY2bFQn50a51Z6ndP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,14 +60,27 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/jeissonchacon/eclipse-workspace/Bank",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 10.1.15">
+  <component name="RunManager" selected="Tomcat Server.login.jsp">
+    <configuration name="All in Bank (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bank" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Bank" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bank" />
       <option name="PACKAGE_NAME" value="" />
@@ -45,6 +90,9 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="login.jsp" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/Bank_war/login.jsp">
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat 10.1.15" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -133,12 +181,57 @@
         </option>
       </method>
     </configuration>
+    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 10.1.15" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
+      <deployment>
+        <artifact name="Bank:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Bank_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="cf3e3442-3a2f-4a35-b711-93b5bb7efaa7" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Bank:war exploded" />
+        </option>
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="JavaScript Debug.login.jsp" />
+      <item itemvalue="JUnit.All in Bank (1)" />
       <item itemvalue="JUnit.All in Bank" />
       <item itemvalue="Tomcat Server.Tomcat 10.1.15" />
+      <item itemvalue="Tomcat Server.login.jsp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Tomcat Server.login.jsp" />
+        <item itemvalue="JavaScript Debug.login.jsp" />
+        <item itemvalue="JUnit.All in Bank (1)" />
         <item itemvalue="JUnit.All in Bank" />
       </list>
     </recent_temporary>
@@ -152,7 +245,7 @@
       <option name="presentableId" value="Default" />
       <updated>1700494354058</updated>
       <workItem from="1700494355167" duration="34000" />
-      <workItem from="1700494415010" duration="294000" />
+      <workItem from="1700494415010" duration="4435000" />
     </task>
     <task id="LOCAL-00001" summary="Adding dependencies">
       <option name="closed" value="true" />
@@ -162,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1700494579286</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding TomCat Server">
+      <option name="closed" value="true" />
+      <created>1700494730575</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700494730575</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +271,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Adding dependencies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding dependencies" />
+    <MESSAGE value="Adding TomCat Server" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding TomCat Server" />
   </component>
 </project>
